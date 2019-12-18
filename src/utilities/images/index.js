@@ -1,0 +1,31 @@
+export const Images = {
+    backgroundImage: require("../../assets/images/background.png"),
+    // splash: require("../../assets/images/splash.jpeg"),
+    appbar: require("../../assets/images/appbar.png"),
+    menu_background:require("../../assets/images/menu_background.png"),
+    ic_logo_big:require("../../assets/images/ic_logo_big.png"),
+    ic_Add:require("../../assets/images/ic_Add.png"),
+    ic_3dots:require("../../assets/images/ic_3dots.png"),
+    ic_Chat_FAB:require("../../assets/images/ic_Chat_FAB.png"),
+    ic_userplaceholder:require("../../assets/images/ic_userplaceholder.png"),
+    ic_add_blue:require("../../assets/images/ic_add_blue.png"),
+    ic_add_white:require("../../assets/images/ic_add_white.png"),
+    ic_heart:require("../../assets/images/ic_heart.png"),
+    ic_laughemoji:require("../../assets/images/ic_laughemoji.png"),
+    ic_questionmark:require("../../assets/images/ic_questionmark.png"),
+    ic_camera:require("../../assets/images/ic_camera.png"),
+    ic_send:require("../../assets/images/ic_send.png"),
+    ic_pending:require("../../assets/images/ic_pending.png"),
+    ic_camera_white:require("../../assets/images/ic_camera_white.png"),
+    ic_check:require("../../assets/images/ic_check.png"),
+    ic_questionmarkFilled:require("../../assets/images/ic_questionmarkFilled.png"),
+    ic_laughemoji_Filled:require("../../assets/images/ic_laughemoji_Filled.png"),
+    ic_heart_Filled:require("../../assets/images/ic_heart_Filled.png"),
+    s1: require("../../assets/images/1.jpeg"),
+    s2: require("../../assets/images/2.jpeg"),
+    s3: require("../../assets/images/3.jpeg"),
+    s4: require("../../assets/images/4.jpeg"),
+}
+
+
+
