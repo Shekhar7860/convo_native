@@ -1,42 +1,35 @@
 {
   "project_info": {
-    "project_number": "732620168114",
-    "firebase_url": "https://convos.firebaseio.com",
-    "project_id": "convos",
-    "storage_bucket": "convos.appspot.com"
+    "project_number": "656577940893",
+    "firebase_url": "https://convonative.firebaseio.com",
+    "project_id": "convonative",
+    "storage_bucket": "convonative.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:732620168114:android:1ba217e4ba640040ece2ab",
+        "mobilesdk_app_id": "1:656577940893:android:b266f5d96c4df58240f374",
         "android_client_info": {
-          "package_name": "com.convo"
+          "package_name": "com.convonative"
         }
       },
       "oauth_client": [
         {
-          "client_id": "732620168114-jakfmgq7m49osu9mvecorr24e0q7jr54.apps.googleusercontent.com",
+          "client_id": "656577940893-9kn390gklhhipd8lafivvdqp8hogvaog.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCBoefiQODpFATYhsx0K-eUnmm4-d-UVkY"
+          "current_key": "AIzaSyCZZejKu-jQeSOJ-zOXoal7VsB64xBrX5U"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "732620168114-jakfmgq7m49osu9mvecorr24e0q7jr54.apps.googleusercontent.com",
+              "client_id": "656577940893-9kn390gklhhipd8lafivvdqp8hogvaog.apps.googleusercontent.com",
               "client_type": 3
-            },
-            {
-              "client_id": "732620168114-8flb86a5dor6hln98difglqva1anpt95.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.convos"
-              }
             }
           ]
         }

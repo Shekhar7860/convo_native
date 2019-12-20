@@ -1,4 +1,4 @@
-package com.convo;
+package com.convonative;
 
 import android.app.Application;
 import android.util.Log;
