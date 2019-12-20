@@ -1,12 +1,25 @@
-import PropTypes from 'prop-types';
-import React from 'react';
-import { Text, StyleSheet, Platform } from 'react-native';
-import fonts from '../utilities/config/font';
-import {normalize,textAligner} from '../utilities/helpers/normalizeText';
-import colors from '../utilities/config/colors';
-import {styles} from '../styles'
+import PropTypes from "prop-types";
+import React from "react";
+import { Text, StyleSheet, Platform } from "react-native";
+import fonts from "../utilities/config/font";
+import { normalize, textAligner } from "../utilities/helpers/normalizeText";
+import colors from "../utilities/config/colors";
+import { styles } from "../styles";
 const TextElement = props => {
-  const { style, children, h1, h2, h3, h4,h5,h6,p, textAlign,fontFamily, ...rest } = props;
+  const {
+    style,
+    children,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    textAlign,
+    fontFamily,
+    ...rest
+  } = props;
   return (
     <Text
       style={[
@@ -17,17 +30,21 @@ const TextElement = props => {
         h4 && { fontSize: normalize(22) },
         h5 && { fontSize: normalize(18) },
         h6 && { fontSize: normalize(14) },
-        p && { fontSize: normalize(16) ,color:colors.textColor,lineHeight:24},
-        
+        p && {
+          fontSize: normalize(16),
+          color: colors.textColor,
+          lineHeight: 24
+        },
+
         h1 && styles.WsMedium,
         h2 && styles.WsMedium,
         h3 && styles.WsMedium,
         h4 && styles.WsMedium,
-        h5 && styles.WsMedium ,
-        textAlign && {textAlign : textAligner('center')},
+        h5 && styles.WsMedium,
+        textAlign && { textAlign: textAligner("center") },
         // h6 && styles.bold,
         fontFamily && { fontFamily },
-        style && style,
+        style && style
       ]}
       {...rest}
     >
@@ -45,9 +62,9 @@ TextElement.propTypes = {
   h5: PropTypes.bool,
   h6: PropTypes.bool,
   p: PropTypes.bool,
-  textAlign:PropTypes.bool,
+  textAlign: PropTypes.bool,
   fontFamily: PropTypes.string,
-  children: PropTypes.any,
+  children: PropTypes.any
 };
 
 export default TextElement;

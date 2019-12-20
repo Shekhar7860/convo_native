@@ -88,8 +88,9 @@ class AppNavigation extends React.Component {
 
   async createNotificationListeners() {
     firebase.notifications().onNotification(notification => {
+     console.log("my notification")
       notification.android.setChannelId('insider').setSound('default')
-      firebase.notifications().displayNotification(notification)
+     firebase.notifications().displayNotification(notification)
     });
   }
 
